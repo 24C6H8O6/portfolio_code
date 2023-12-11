@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resources/neg1.png</file>
+        <file>resources/neg2.png</file>
+        <file>resources/neg3.jpg</file>
+        <file>resources/neg4.jpg</file>
+        <file>resources/neg5.png</file>
+        <file>resources/neu1.png</file>
+        <file>resources/neu2.png</file>
+        <file>resources/neu3.jpg</file>
+        <file>resources/neu4.png</file>
+        <file>resources/pos1.jpg</file>
+        <file>resources/pos2.jpg</file>
+        <file>resources/pos3.png</file>
+        <file>resources/pos4.png</file>
+        <file>resources/background-min.jpg</file>
+        <file>resources/find-min.jpg</file>
+        <file>resources/join-min.jpg</file>
+        <file>resources/login-min.jpg</file>
+        <file>resources/main-min.jpg</file>
+        <file>resources/pic4-min.jpg</file>
+        <file>resources/pictext-min.jpg</file>
+        <file>resources/Emotion_Check_11-min.jpg</file>
+        <file>resources/Emotion_Check_12-min.jpg</file>
+        <file>resources/movie1.gif</file>
+        <file>resources/movie2.gif</file>
+        <file>resources/13.jpg</file>
+        <file>resources/remove_id.png</file>
+        <file>resources/remove_birth.png</file>
+        <file>resources/remove_email.png</file>
+        <file>resources/remove_gender.png</file>
+        <file>resources/remove_name.png</file>
+        <file>resources/remove_password.png</file>
+        <file>resources/remove_password2.png</file>
+        <file>resources/remove_phone.png</file>
+    </qresource>
+</RCC>

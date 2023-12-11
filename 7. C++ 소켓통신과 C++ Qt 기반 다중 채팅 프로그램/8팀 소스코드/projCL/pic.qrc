@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>back.png</file>
+        <file>image.png</file>
+        <file>lmstalk.png</file>
+        <file>on.png</file>
+        <file>refresh.png</file>
+    </qresource>
+</RCC>

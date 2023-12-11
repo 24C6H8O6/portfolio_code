@@ -1,0 +1,16 @@
+C:\Users\lms103\Downloads\Server\bin\Debug\net7.0-windows\Server.exe
+C:\Users\lms103\Downloads\Server\bin\Debug\net7.0-windows\Server.deps.json
+C:\Users\lms103\Downloads\Server\bin\Debug\net7.0-windows\Server.runtimeconfig.json
+C:\Users\lms103\Downloads\Server\bin\Debug\net7.0-windows\Server.dll
+C:\Users\lms103\Downloads\Server\bin\Debug\net7.0-windows\Server.pdb
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.Form1.resources
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.csproj.GenerateResource.cache
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.AssemblyInfoInputs.cache
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.AssemblyInfo.cs
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.csproj.CoreCompileInputs.cache
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.dll
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\refint\Server.dll
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.pdb
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\Server.genruntimeconfig.cache
+C:\Users\lms103\Downloads\Server\obj\Debug\net7.0-windows\ref\Server.dll

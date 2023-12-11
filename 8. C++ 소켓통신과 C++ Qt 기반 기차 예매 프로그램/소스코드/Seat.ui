@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Seat</class>
+ <widget class="QWidget" name="Seat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Seat</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>362</width>
+     <height>632</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>630</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>630</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>360</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/resources/maptop.png);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>97</x>
+          <y>10</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none; background: transparent;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>1호차</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="backbtn">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>50</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;  background: transparent;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="showmyinfobtn">
+        <property name="geometry">
+         <rect>
+          <x>299</x>
+          <y>0</y>
+          <width>61</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;  background: transparent;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>360</width>
+         <height>700</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <bold>false</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>1호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3호차 (특실)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>7호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>8호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>11호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>13호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>14호차</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>15호차</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>351</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>KTX-산천 408(일반실)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>360</width>
+         <height>450</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>346</width>
+          <height>900</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>900</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>901</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/resources/seatback.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_8A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_8B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_8C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_8D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_5A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_15C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_15B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_15A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_15D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_15D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_15C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_15B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_15A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>33</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_14A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_14A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_14B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_14C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_14D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_14D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_14C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_14B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>89</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_13A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_12A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_12C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_12D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_13A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_13B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_13C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_13D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_12D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_13D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_12C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_12B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_12A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_13C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_12B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>202</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_13B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>145</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_10D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_11D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_10C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_10B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_11C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_11D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_11B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_10A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_10D">
+         <property name="geometry">
+          <rect>
+           <x>272</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_10C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_11B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_11A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_10A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_10B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>312</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_11C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_11A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>257</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_9A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_9C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_9B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_9D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_9B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_9A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_9C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_9D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>366</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seatr.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_8D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_8C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_8B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_8A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>421</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_7D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_7A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_7C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_7B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_7C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_7B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_7D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_7A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>480</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_6A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_6D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_6C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_6B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_6B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_6C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_6D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_6A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>538</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_5B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_5D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_5B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_5A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_5C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_5C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_5D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>595</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_1B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_4A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_3A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_1B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_4A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_3D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_1C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_3C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_4B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_1C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_2B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_4D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_3B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_3B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_3C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_2D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_2B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_3D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_1D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_1A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_2A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_1D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_4C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_2A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_2C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_4C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_2C">
+         <property name="geometry">
+          <rect>
+           <x>214</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_1A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>826</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_4B">
+         <property name="geometry">
+          <rect>
+           <x>93</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QPushButton" name="seatbutton_4D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>653</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/seat.png); border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">seatButtonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="seat_3A">
+         <property name="geometry">
+          <rect>
+           <x>34</x>
+           <y>710</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="seat_2D">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>768</y>
+           <width>53</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>35</x>
+           <y>6</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>창측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>274</x>
+           <y>6</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>창측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>217</x>
+           <y>6</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>내측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>94</x>
+           <y>6</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>내측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>95</x>
+           <y>882</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>내측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>275</x>
+           <y>882</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>창측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>36</x>
+           <y>882</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>창측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>218</x>
+           <y>882</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(100,100,100);</string>
+         </property>
+         <property name="text">
+          <string>내측</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_5</zorder>
+        <zorder>seat_8A</zorder>
+        <zorder>seat_8B</zorder>
+        <zorder>seat_8C</zorder>
+        <zorder>seat_8D</zorder>
+        <zorder>seat_5A</zorder>
+        <zorder>seat_15C</zorder>
+        <zorder>seat_15B</zorder>
+        <zorder>seat_15A</zorder>
+        <zorder>seat_15D</zorder>
+        <zorder>seat_14A</zorder>
+        <zorder>seat_14B</zorder>
+        <zorder>seat_14D</zorder>
+        <zorder>seat_14C</zorder>
+        <zorder>seat_12C</zorder>
+        <zorder>seat_12D</zorder>
+        <zorder>seat_13A</zorder>
+        <zorder>seat_13B</zorder>
+        <zorder>seat_13D</zorder>
+        <zorder>seat_12A</zorder>
+        <zorder>seat_13C</zorder>
+        <zorder>seat_12B</zorder>
+        <zorder>seat_11C</zorder>
+        <zorder>seat_11D</zorder>
+        <zorder>seat_10D</zorder>
+        <zorder>seat_10C</zorder>
+        <zorder>seat_11B</zorder>
+        <zorder>seat_10A</zorder>
+        <zorder>seat_10B</zorder>
+        <zorder>seat_11A</zorder>
+        <zorder>seat_9B</zorder>
+        <zorder>seat_9D</zorder>
+        <zorder>seat_9A</zorder>
+        <zorder>seat_9C</zorder>
+        <zorder>seat_7C</zorder>
+        <zorder>seat_7B</zorder>
+        <zorder>seat_7D</zorder>
+        <zorder>seat_7A</zorder>
+        <zorder>seat_6C</zorder>
+        <zorder>seat_6B</zorder>
+        <zorder>seat_6D</zorder>
+        <zorder>seat_6A</zorder>
+        <zorder>seat_5B</zorder>
+        <zorder>seat_5C</zorder>
+        <zorder>seat_5D</zorder>
+        <zorder>seat_1B</zorder>
+        <zorder>seat_4A</zorder>
+        <zorder>seat_1C</zorder>
+        <zorder>seat_3C</zorder>
+        <zorder>seat_4B</zorder>
+        <zorder>seat_4D</zorder>
+        <zorder>seat_3B</zorder>
+        <zorder>seat_2B</zorder>
+        <zorder>seat_3D</zorder>
+        <zorder>seat_1D</zorder>
+        <zorder>seat_1A</zorder>
+        <zorder>seat_4C</zorder>
+        <zorder>seat_2A</zorder>
+        <zorder>seat_2C</zorder>
+        <zorder>seat_3A</zorder>
+        <zorder>seat_2D</zorder>
+        <zorder>seatbutton_10C</zorder>
+        <zorder>seatbutton_10D</zorder>
+        <zorder>seatbutton_11A</zorder>
+        <zorder>seatbutton_11B</zorder>
+        <zorder>seatbutton_11C</zorder>
+        <zorder>seatbutton_11D</zorder>
+        <zorder>seatbutton_12A</zorder>
+        <zorder>seatbutton_12B</zorder>
+        <zorder>seatbutton_12C</zorder>
+        <zorder>seatbutton_12D</zorder>
+        <zorder>seatbutton_13A</zorder>
+        <zorder>seatbutton_13B</zorder>
+        <zorder>seatbutton_13C</zorder>
+        <zorder>seatbutton_13D</zorder>
+        <zorder>seatbutton_14A</zorder>
+        <zorder>seatbutton_14B</zorder>
+        <zorder>seatbutton_14C</zorder>
+        <zorder>seatbutton_14D</zorder>
+        <zorder>seatbutton_15A</zorder>
+        <zorder>seatbutton_15B</zorder>
+        <zorder>seatbutton_15C</zorder>
+        <zorder>seatbutton_15D</zorder>
+        <zorder>seatbutton_1A</zorder>
+        <zorder>seatbutton_1B</zorder>
+        <zorder>seatbutton_1C</zorder>
+        <zorder>seatbutton_1D</zorder>
+        <zorder>seatbutton_2A</zorder>
+        <zorder>seatbutton_2B</zorder>
+        <zorder>seatbutton_2C</zorder>
+        <zorder>seatbutton_2D</zorder>
+        <zorder>seatbutton_3A</zorder>
+        <zorder>seatbutton_3B</zorder>
+        <zorder>seatbutton_3C</zorder>
+        <zorder>seatbutton_3D</zorder>
+        <zorder>seatbutton_4A</zorder>
+        <zorder>seatbutton_4B</zorder>
+        <zorder>seatbutton_4C</zorder>
+        <zorder>seatbutton_4D</zorder>
+        <zorder>seatbutton_5A</zorder>
+        <zorder>seatbutton_5B</zorder>
+        <zorder>seatbutton_5C</zorder>
+        <zorder>seatbutton_5D</zorder>
+        <zorder>seatbutton_6A</zorder>
+        <zorder>seatbutton_6B</zorder>
+        <zorder>seatbutton_6C</zorder>
+        <zorder>seatbutton_6D</zorder>
+        <zorder>seatbutton_7A</zorder>
+        <zorder>seatbutton_7B</zorder>
+        <zorder>seatbutton_7C</zorder>
+        <zorder>seatbutton_7D</zorder>
+        <zorder>seatbutton_8A</zorder>
+        <zorder>seatbutton_8B</zorder>
+        <zorder>seatbutton_8C</zorder>
+        <zorder>seatbutton_8D</zorder>
+        <zorder>seatbutton_9B</zorder>
+        <zorder>seatbutton_9C</zorder>
+        <zorder>seatbutton_9D</zorder>
+        <zorder>seatbutton_10A</zorder>
+        <zorder>seatbutton_10B</zorder>
+        <zorder>seatbutton_9A</zorder>
+        <zorder>label_6</zorder>
+        <zorder>label_7</zorder>
+        <zorder>label_8</zorder>
+        <zorder>label_9</zorder>
+        <zorder>label_10</zorder>
+        <zorder>label_11</zorder>
+        <zorder>label_12</zorder>
+        <zorder>label_13</zorder>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>1</x>
+         <y>130</y>
+         <width>351</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>X 선택불가  ○ 선택가능   ᕰ 순방향  ᕱ  역방향</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>231</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(52, 101, 164);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <zorder>label_2</zorder>
+      <zorder>scrollArea</zorder>
+      <zorder>frame</zorder>
+      <zorder>comboBox</zorder>
+      <zorder>label_3</zorder>
+      <zorder>label_14</zorder>
+      <zorder>label_4</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="buttonWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>580</y>
+     <width>360</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>360</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>362</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="styleSheet">
+        <string notr="true">border: none;</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QPushButton" name="selectbutton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>360</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+background-color: rgb(136, 138, 133);
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>선택 완료</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="selectnum">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>360</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(136, 138, 133, 200);
+color: rgb(238, 238, 236);</string>
+        </property>
+        <property name="text">
+         <string>선택 좌석</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="seatButtonGroup"/>
+ </buttongroups>
+</ui>

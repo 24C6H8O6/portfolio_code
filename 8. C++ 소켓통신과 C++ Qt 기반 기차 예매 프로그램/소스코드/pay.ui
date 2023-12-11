@@ -1,0 +1,3032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pay</class>
+ <widget class="QWidget" name="Pay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pay</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>361</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_j1">
+    <item>
+     <widget class="QGroupBox" name="groupBox_j1">
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_j1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>360</width>
+         <height>700</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>360</width>
+         <height>700</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <widget class="QLabel" name="text00">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/resources/paytop1.png);
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/resources/paytop1.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="text0">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>50</y>
+           <width>371</width>
+           <height>151</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="today">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>161</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>11</pointsize>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116, 122, 232);
+font: 11pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>2023년 9월 13일 (수)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="num">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>60</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>2매</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="traininfo_0">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>85</y>
+           <width>91</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>[KTX 428]</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="traininfo_1">
+         <property name="geometry">
+          <rect>
+           <x>92</x>
+           <y>84</y>
+           <width>221</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>광주송정 18:19 → 광명 19:53</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="traininfo_2">
+         <property name="geometry">
+          <rect>
+           <x>11</x>
+           <y>113</y>
+           <width>141</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;
+color:rgb(80, 76, 76);</string>
+         </property>
+         <property name="text">
+          <string>특실 3호차 4B, 9B</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="text1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>143</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;Ubuntu&quot;;
+color:red;</string>
+         </property>
+         <property name="text">
+          <string>결제 기한 :</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="time">
+         <property name="geometry">
+          <rect>
+           <x>83</x>
+           <y>143</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;Ubuntu&quot;;
+color:red;</string>
+         </property>
+         <property name="text">
+          <string>14시 22분</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="text2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>166</y>
+           <width>341</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 11pt &quot;Ubuntu&quot;;
+color:red;
+</string>
+         </property>
+         <property name="text">
+          <string>10분 이내 미결제시 승차권이 자동으로 취소됩니다.</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="text3">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>210</y>
+           <width>371</width>
+           <height>121</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QTextEdit" name="textedit1">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>207</y>
+           <width>371</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+color:gray;</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   • 결제하지 않으면 예약이 취소됩니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   • 승차권을 발권받은 스마트폰에서만 확인할 수 있습니&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   •  할인승차권 이용시에는 관련 신분증 또는 증명서를 소&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  지하셔야 합니다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="text4">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>335</y>
+           <width>131</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;
+font:bold;</string>
+         </property>
+         <property name="text">
+          <string>꼭 알아두세요!</string>
+         </property>
+        </widget>
+        <widget class="QTextEdit" name="textedit2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>374</y>
+           <width>381</width>
+           <height>281</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+color:gray;</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   • 결제하지 않으면 예약이 취소됩니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   •&lt;/span&gt; &lt;span style=&quot; text-decoration: underline; color:#ff0000;&quot;&gt;승차권 환불(반환) 위약금 확인하기&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   • &lt;/span&gt;&lt;span style=&quot; text-decoration: underline; color:#ff0000;&quot;&gt; 휴대품 세부 승차기준&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   •  코레일톡에서 구매한 승차권은 역창구에서 변경 시 할&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  인이 취소 될 수 있습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   •  할인 승차권의 할인율은 별도 공지없이 변경될 수 있&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;   •  할인은 운임에만 적용하고 요금은 미적용(&lt;/span&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;특실/우등실&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;  은 운임과 요금으로 구분&lt;/span&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;)되며, 최저운임 이하로 할인하&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  지 않습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#504c4c;&quot;&gt;  •  승차 시 해당열차 승차권을 소지해야 하며,&lt;/span&gt; &lt;span style=&quot; color:#ff0000;&quot;&gt;사진이나&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;  캡쳐한 화면은 유효한 승차권이 아닙니다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="paybutton">
+         <property name="geometry">
+          <rect>
+           <x>-1</x>
+           <y>650</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(204, 255, 244);
+color: rgb(116, 122, 232);
+font: 13pt &quot;Ubuntu&quot;;
+border:none;
+</string>
+         </property>
+         <property name="text">
+          <string>결제하기</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="backbtn">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>50</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none; background: transparent;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <zorder>text00</zorder>
+        <zorder>text0</zorder>
+        <zorder>today</zorder>
+        <zorder>num</zorder>
+        <zorder>traininfo_0</zorder>
+        <zorder>traininfo_1</zorder>
+        <zorder>traininfo_2</zorder>
+        <zorder>text1</zorder>
+        <zorder>time</zorder>
+        <zorder>text2</zorder>
+        <zorder>text3</zorder>
+        <zorder>textedit1</zorder>
+        <zorder>textedit2</zorder>
+        <zorder>text4</zorder>
+        <zorder>paybutton</zorder>
+        <zorder>backbtn</zorder>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <widget class="QWidget" name="verticalLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>640</y>
+           <width>362</width>
+           <height>72</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>360</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QFrame" name="frame_2">
+         <property name="geometry">
+          <rect>
+           <x>7</x>
+           <y>60</y>
+           <width>339</width>
+           <height>550</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>320</width>
+           <height>550</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>335</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>160</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>2023년 9월 26일(화)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>160</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>스마트티켓 2매</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_7">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>광주송정</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>05:38</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_20">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>30</horstretch>
+                  <verstretch>30</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>13</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>→</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_13">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>천안아산</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_14">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>07:32</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_19">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>145</width>
+                    <height>10</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_18">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>85</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>BTX 1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_17">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_2">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>70</width>
+                  <height>25</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(254, 254, 254);
+border-radius: 3px;
+border: 1px solid rgb(123, 230, 64);</string>
+                </property>
+                <property name="text">
+                 <string>차내시설</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_5">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>70</width>
+                  <height>25</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(254, 254, 254);
+border-radius: 3px;
+border: 1px solid rgb(123, 230, 64);</string>
+                </property>
+                <property name="text">
+                 <string>열차시각</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QScrollArea" name="scrollArea">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>337</width>
+                <height>290</height>
+               </size>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="widgetResizable">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="ticket">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>335</width>
+                 <height>288</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_13" stretch="0">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_12">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QGroupBox" name="groupBox_3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_8">
+                   <property name="minimumSize">
+                    <size>
+                     <width>320</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::Panel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Sunken</enum>
+                   </property>
+                   <property name="lineWidth">
+                    <number>1</number>
+                   </property>
+                   <property name="text">
+                    <string>펼처보기</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_todaytime">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>360</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 200, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>105</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>전달하기</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_6">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>105</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>반환하기</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>105</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>여행변경</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/resources/paytop.png);
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/resources/paytop.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_3">
+        <widget class="QLabel" name="label2_j">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/resources/paytop.png);
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>승차권 확인</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="hidebutton">
+         <property name="geometry">
+          <rect>
+           <x>323</x>
+           <y>13</y>
+           <width>20</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/resources/close.png);
+background-color: rgb(255, 141, 225);
+border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label1_j">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>0</y>
+           <width>81</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 141, 225);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="day">
+         <property name="geometry">
+          <rect>
+           <x>106</x>
+           <y>54</y>
+           <width>161</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 141, 225);
+font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>2023년 9월 13일 (수)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="day_2">
+         <property name="geometry">
+          <rect>
+           <x>105</x>
+           <y>87</y>
+           <width>161</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116,122,232);
+font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>KTX 428</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2_j">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>700</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3_j">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>118</y>
+           <width>371</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(192, 191, 188);</string>
+         </property>
+         <property name="text">
+          <string>• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4_j">
+         <property name="geometry">
+          <rect>
+           <x>18</x>
+           <y>150</y>
+           <width>101</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116,122,232);
+font: 18pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string>광주송정</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6_j">
+         <property name="geometry">
+          <rect>
+           <x>247</x>
+           <y>150</y>
+           <width>90</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116,122,232);
+font: 18pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string>광명</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7_j">
+         <property name="geometry">
+          <rect>
+           <x>142</x>
+           <y>149</y>
+           <width>90</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116,122,232);
+font: 16pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string>→</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8_j">
+         <property name="geometry">
+          <rect>
+           <x>7</x>
+           <y>226</y>
+           <width>371</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(192, 191, 188);</string>
+         </property>
+         <property name="text">
+          <string>―――――――――――――――――――――――</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9_j">
+         <property name="geometry">
+          <rect>
+           <x>32</x>
+           <y>195</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>18:19</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10_j">
+         <property name="geometry">
+          <rect>
+           <x>258</x>
+           <y>195</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>19:53</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11_j">
+         <property name="geometry">
+          <rect>
+           <x>7</x>
+           <y>292</y>
+           <width>371</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(192, 191, 188);</string>
+         </property>
+         <property name="text">
+          <string>―――――――――――――――――――――――</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12_j">
+         <property name="geometry">
+          <rect>
+           <x>99</x>
+           <y>249</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>3호차 4B, 3호차 12B</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13_j">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>325</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>승차권</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14_j">
+         <property name="geometry">
+          <rect>
+           <x>121</x>
+           <y>313</y>
+           <width>141</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 141, 225);
+font: 18pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string>103,300원</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>650</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="jpaybutton_2">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>0</y>
+            <width>180</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(204, 255, 244);
+color: rgb(116, 122, 232);
+font: 13pt &quot;Ubuntu&quot;;
+border:none;
+border-left: 1px solid lightblue;
+</string>
+          </property>
+          <property name="text">
+           <string>다음</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="jpaybutton_3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>180</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(204, 255, 244);
+color: rgb(116, 122, 232);
+font: 13pt &quot;Ubuntu&quot;;
+border:none;
+</string>
+          </property>
+          <property name="text">
+           <string>예약취소</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_0">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>400</y>
+           <width>291</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>  LMS 23 회원 할인 (70%)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">disbutton</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="label_15_j">
+         <property name="geometry">
+          <rect>
+           <x>-3</x>
+           <y>359</y>
+           <width>111</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>할인 적용 전</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16_j">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>359</y>
+           <width>181</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+         </property>
+         <property name="text">
+          <string>103,300원</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_1">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>436</y>
+           <width>291</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>  국가 유공자 할인 (90%)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">disbutton</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>472</y>
+           <width>291</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>  국가 유공자 보호자 할인 (20%)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">disbutton</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>508</y>
+           <width>291</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>  중증 보호자 할인 (20%)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">disbutton</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>544</y>
+           <width>291</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Ubuntu&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>  병역 의무 복무자 할인 (50%)</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">disbutton</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="label_17_j">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>580</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18_j">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>589</y>
+           <width>361</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(180, 180, 180, 200);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19_j">
+         <property name="geometry">
+          <rect>
+           <x>14</x>
+           <y>610</y>
+           <width>67</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(116,122,232);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string>총 1개</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20_j">
+         <property name="geometry">
+          <rect>
+           <x>244</x>
+           <y>610</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_2_j</zorder>
+        <zorder>label2_j</zorder>
+        <zorder>label1_j</zorder>
+        <zorder>day</zorder>
+        <zorder>day_2</zorder>
+        <zorder>label_3_j</zorder>
+        <zorder>label_4_j</zorder>
+        <zorder>label_6_j</zorder>
+        <zorder>label_7_j</zorder>
+        <zorder>label_8_j</zorder>
+        <zorder>label_9_j</zorder>
+        <zorder>label_10_j</zorder>
+        <zorder>label_11_j</zorder>
+        <zorder>label_12_j</zorder>
+        <zorder>label_13_j</zorder>
+        <zorder>label_14_j</zorder>
+        <zorder>frame</zorder>
+        <zorder>radioButton_0</zorder>
+        <zorder>label_15_j</zorder>
+        <zorder>label_16_j</zorder>
+        <zorder>radioButton_1</zorder>
+        <zorder>radioButton_2</zorder>
+        <zorder>radioButton_3</zorder>
+        <zorder>radioButton_4</zorder>
+        <zorder>label_17_j</zorder>
+        <zorder>label_18_j</zorder>
+        <zorder>label_19_j</zorder>
+        <zorder>label_20_j</zorder>
+        <zorder>hidebutton</zorder>
+       </widget>
+       <widget class="QWidget" name="page_4">
+        <widget class="QLabel" name="label2_j_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/resources/paytop.png);
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>결제</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>50</y>
+           <width>361</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="button1">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>180</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: none; color: gray;</string>
+          </property>
+          <property name="text">
+           <string>카드결제</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="button">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>0</y>
+            <width>180</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: none; color: gray;</string>
+          </property>
+          <property name="text">
+           <string>간편결제</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QStackedWidget" name="stackedWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>100</y>
+           <width>361</width>
+           <height>551</height>
+          </rect>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page_5">
+          <widget class="QFrame" name="frame_7">
+           <property name="geometry">
+            <rect>
+             <x>18</x>
+             <y>12</y>
+             <width>321</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QLabel" name="label_13_j_2">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>71</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 14pt &quot;Ubuntu&quot;;</string>
+            </property>
+            <property name="text">
+             <string>승차권</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="pay_j">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>10</y>
+              <width>141</width>
+              <height>40</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 141, 225);
+font: 18pt &quot;Ubuntu&quot;;
+font: bold;</string>
+            </property>
+            <property name="text">
+             <string>103,300원</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QLabel" name="label_8_j_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>79</y>
+             <width>371</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(192, 191, 188);</string>
+           </property>
+           <property name="text">
+            <string>―――――――――――――――――――――――</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="pay_j1">
+           <property name="geometry">
+            <rect>
+             <x>95</x>
+             <y>87</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>간편결제</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>-10</x>
+             <y>147</y>
+             <width>381</width>
+             <height>301</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(243, 240, 240);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>95</x>
+             <y>157</y>
+             <width>171</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>+ 결제수단 등록하기</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="geometry">
+            <rect>
+             <x>13</x>
+             <y>255</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>토스페이</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="geometry">
+            <rect>
+             <x>213</x>
+             <y>255</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>PAYCO</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="geometry">
+            <rect>
+             <x>13</x>
+             <y>305</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>카카오페이</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="geometry">
+            <rect>
+             <x>213</x>
+             <y>305</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>내통장결제</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="geometry">
+            <rect>
+             <x>13</x>
+             <y>355</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>BC페이북</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="geometry">
+            <rect>
+             <x>213</x>
+             <y>355</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>신한pLay</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="geometry">
+            <rect>
+             <x>13</x>
+             <y>405</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>제로페이</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="geometry">
+            <rect>
+             <x>213</x>
+             <y>405</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>네이버페이</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18_j_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>489</y>
+             <width>361</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(180, 180, 180, 200);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20_j_2">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>510</y>
+             <width>101</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19_j_2">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>510</y>
+             <width>67</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(116,122,232);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+           </property>
+           <property name="text">
+            <string>총 1개</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="geometry">
+            <rect>
+             <x>13</x>
+             <y>205</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>내 통장결제</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="geometry">
+            <rect>
+             <x>213</x>
+             <y>205</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: 2px solid rgb(116, 122, 232); 
+border-radius: 8px; </string>
+           </property>
+           <property name="text">
+            <string>마일리지 결제</string>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="toolButton_12">
+           <property name="geometry">
+            <rect>
+             <x>3</x>
+             <y>451</y>
+             <width>351</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: transparent; 
+border: none;
+</string>
+           </property>
+           <property name="text">
+            <string>★ 복레일 오픈 프로모션 진행 LMS 23 회원 70% 할인  ★</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>117</y>
+             <width>61</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/down-arrow_1.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <widget class="QFrame" name="frame_8">
+           <property name="geometry">
+            <rect>
+             <x>18</x>
+             <y>12</y>
+             <width>321</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QLabel" name="label_13_j_3">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>71</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 14pt &quot;Ubuntu&quot;;</string>
+            </property>
+            <property name="text">
+             <string>승차권</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="pay_j_2">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>10</y>
+              <width>141</width>
+              <height>40</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 141, 225);
+font: 18pt &quot;Ubuntu&quot;;
+font: bold;</string>
+            </property>
+            <property name="text">
+             <string>103,300원</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QLabel" name="label_8_j_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>107</y>
+             <width>371</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(192, 191, 188);</string>
+           </property>
+           <property name="text">
+            <string>―――――――――――――――――――――――</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>-10</x>
+             <y>170</y>
+             <width>381</width>
+             <height>311</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(243, 240, 240);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_21">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>142</y>
+             <width>61</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/down-arrow_1.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="pay_j1_2">
+           <property name="geometry">
+            <rect>
+             <x>95</x>
+             <y>115</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>신용(체크) 카드 결제</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>193</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_2">
+           <property name="geometry">
+            <rect>
+             <x>145</x>
+             <y>193</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_3">
+           <property name="geometry">
+            <rect>
+             <x>215</x>
+             <y>193</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_4">
+           <property name="geometry">
+            <rect>
+             <x>285</x>
+             <y>193</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>193</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>카드번호</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_23">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>239</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>유효기간</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_5">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>239</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(211, 215, 207);</string>
+           </property>
+           <property name="text">
+            <string>MM</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_24">
+           <property name="geometry">
+            <rect>
+             <x>116</x>
+             <y>238</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>월</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_25">
+           <property name="geometry">
+            <rect>
+             <x>215</x>
+             <y>236</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>월</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_6">
+           <property name="geometry">
+            <rect>
+             <x>163</x>
+             <y>237</y>
+             <width>61</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(211, 215, 207);</string>
+           </property>
+           <property name="text">
+            <string>YYYY</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_26">
+           <property name="geometry">
+            <rect>
+             <x>116</x>
+             <y>282</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>**</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_27">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>283</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>유효기간</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_7">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>283</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(211, 215, 207);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_28">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>323</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>유효기간</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton11">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>323</y>
+             <width>92</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>개인</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton12">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>323</y>
+             <width>92</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>법인</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_8">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>357</y>
+             <width>271</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(211, 215, 207);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_29">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>357</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>인증번호</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_30">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>381</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(243, 147, 235);</string>
+           </property>
+           <property name="text">
+            <string>주민번호 앞 6자리</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20_j_3">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>510</y>
+             <width>101</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18_j_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>489</y>
+             <width>361</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(180, 180, 180, 200);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19_j_3">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>510</y>
+             <width>67</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(116,122,232);
+font: 13pt &quot;Ubuntu&quot;;
+font: bold;</string>
+           </property>
+           <property name="text">
+            <string>총 1개</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>453</y>
+             <width>341</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+             <italic>false</italic>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="text">
+            <string>개인정보 수집 및 이용동의</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_31">
+           <property name="geometry">
+            <rect>
+             <x>6</x>
+             <y>410</y>
+             <width>67</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>할부기간</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox">
+           <property name="geometry">
+            <rect>
+             <x>75</x>
+             <y>413</y>
+             <width>271</width>
+             <height>25</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>일시불</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>2개월</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>3개월</string>
+            </property>
+           </item>
+          </widget>
+          <widget class="QLabel" name="label_15_j_2">
+           <property name="geometry">
+            <rect>
+             <x>7</x>
+             <y>84</y>
+             <width>111</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>할인 적용 전</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16_j_2">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>84</y>
+             <width>181</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>103,300원</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QFrame" name="frame_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>650</y>
+           <width>360</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="jpaybutton_4">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>-1</y>
+            <width>360</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(180, 180, 180);
+color: rgb(116, 122, 232);
+font: 13pt &quot;Ubuntu&quot;;
+border:none;
+border-left: 1px solid lightblue;
+</string>
+          </property>
+          <property name="text">
+           <string>결제/발권</string>
+          </property>
+         </widget>
+        </widget>
+        <zorder>frame_5</zorder>
+        <zorder>stackedWidget_2</zorder>
+        <zorder>frame_6</zorder>
+        <zorder>label2_j_2</zorder>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="disbutton"/>
+ </buttongroups>
+</ui>

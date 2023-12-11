@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/booktop.png</file>
+        <file>resources/phonescreen.png</file>
+        <file>resources/Spinner-1s-200px.gif</file>
+        <file>resources/widgetback.png</file>
+        <file>resources/image.png</file>
+        <file>resources/down-arrow_1.png</file>
+        <file>resources/up-arrow_1.png</file>
+        <file>resources/refresh.png</file>
+        <file>resources/exchange.png</file>
+        <file>resources/arrow-right.png</file>
+        <file>resources/tickets.png</file>
+        <file>resources/train.png</file>
+        <file>resources/add.png</file>
+        <file>resources/add (1).png</file>
+        <file>resources/logout.png</file>
+        <file>resources/minus.png</file>
+        <file>resources/minus (1).png</file>
+        <file>resources/power-off (1).png</file>
+        <file>resources/maptop.png</file>
+        <file>resources/back.png</file>
+        <file>resources/GyeongbuLine</file>
+        <file>resources/HonamLine.jpg</file>
+        <file>resources/below.png</file>
+        <file>resources/pic1.png</file>
+        <file>resources/pic2.png</file>
+        <file>resources/trainlisttop.png</file>
+        <file>resources/traintimeB.png</file>
+        <file>resources/traintimeM.png</file>
+        <file>resources/traintimeT.png</file>
+        <file>resources/traintimetop.png</file>
+        <file>resources/seatr.png</file>
+        <file>resources/seatback.png</file>
+        <file>resources/seat.png</file>
+        <file>resources/trainimg.png</file>
+        <file>resources/QR.png</file>
+        <file>resources/close.png</file>
+        <file>resources/paytop.png</file>
+        <file>resources/paytop1.png</file>
+        <file>resources/train_station.png</file>
+    </qresource>
+</RCC>
